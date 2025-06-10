@@ -19,17 +19,20 @@ Bu proje, ASP.NET Core MVC mimarisi kullanılarak geliştirilmiş basit ve işle
 - C#
 
 ## 📁 Proje Yapısı
+
+```
 TodoList/
 │
-├── TodoList.Web/ → Ana web uygulaması
-│ ├── Controllers/ → MVC Controller dosyaları
-│ ├── Views/ → Razor View dosyaları (HTML + C#)
-│ ├── wwwroot/ → Statik dosyalar (CSS, JS)
-│ └── appsettings.json → Konfigürasyon
+├── TodoList.Web/           → Ana web uygulaması
+│   ├── Controllers/        → MVC Controller dosyaları
+│   ├── Views/              → Razor View dosyaları (HTML + C#)
+│   ├── wwwroot/            → Statik dosyalar (CSS, JS)
+│   └── appsettings.json    → Konfigürasyon
 │
-├── TodoList.Models/ → Veri modelleri (ToDo, Category vs.)
-├── TodoList.Data/ → DbContext ve veri erişim katmanı
-└── TodoList.sln → Çözüm dosyası
+├── TodoList.Models/        → Veri modelleri (ToDo, Category vs.)
+├── TodoList.Data/          → DbContext ve veri erişim katmanı
+└── TodoList.sln            → Çözüm dosyası
+```
 
 ## 📦 Kurulum
 
@@ -41,9 +44,11 @@ TodoList/
 
 3. appsettings.json dosyası üzerinden veritabanı bağlantı ayarlarını yapılandırın.
 
-4. Migration ve database oluşturmak için: Update-Database
+4. Migration ve database oluşturmak için:
+   ```bash
+   Update-Database
 
-5. Uygulamayı çalıştırın ve tarayıcıdan https://localhost:5001 adresine gidin.
+6. Uygulamayı çalıştırın ve tarayıcıdan https://localhost:5001 adresine gidin.
 
 ## ✍️ Notlar
 Proje, Acunmedya Akademi'deki yazılım geliştirme eğitimim sürecinde geliştirilmiştir.
