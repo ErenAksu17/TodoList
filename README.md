@@ -11,6 +11,7 @@
 ![EF Core](https://img.shields.io/badge/Entity%20Framework%20Core-512BD4?style=flat-square&logo=nuget&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
 ![Eğitim projesi](https://img.shields.io/badge/eğitim%20projesi-2023-64748b?style=flat-square)
+[![Lisans](https://img.shields.io/badge/Lisans-MIT-22c55e?style=flat-square)](LICENSE)
 
 </div>
 
@@ -95,6 +96,13 @@ dotnet ef database update --project TodoList.Data --startup-project TodoList.Web
 
 Kod, okunabilir ve geliştirilebilir olacak şekilde sade tutulmuştur.
 Geri bildirimlere her zaman açığım.
+
+---
+
+## 📄 Lisans
+
+[MIT](LICENSE) — © 2023-2026 Eren AKSU. Serbestçe kullanabilir, değiştirebilir ve
+dağıtabilirsiniz; telif bildirimini koruyun.
 
 ---
 
